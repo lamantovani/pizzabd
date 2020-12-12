@@ -18,7 +18,7 @@ export class MenugComponent implements OnInit {
     this.nome = 'Burno Daniel Galvani';
   }
 
-  public onClickMenu(route: string) {
+  public onClickMenuLUCAS(route: string) {
     this.route.navigate([route]);
   }
 
